@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+Basic Webpage Layout:
+
+body{
+    font-family:  'Trebuchet MS', Arial, Verdana, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+	
+p{
+	color:#606263 ;
+}
+a{
+	color:#6c9;
+	text-decoration:none;
+}
+
+h1{
+	line-height: 60px;
+	color: #80664C;
+	font-size: 20px;
+	letter-spacing: 7px;
+h3{
+letter-spacing: 3px;
+line-height: 20px;
+}
+
+#top{
+
+width:100%;
+height:230px;
+	background-color:#111111;
+	background-image:url('soyheader302.png');
+	background-repeat: no-repeat;
+	background-position:100%  0%;
+padding:40px;
+background-color: black;
+margin:0 0 0 0;
+}
+
+/*this is for an ID*/
+#wrapper{
+	width:960px;
+	/*margin-left:auto;
+	margin-right:auto;   btter 3way  top rightandleft bottom*/
+	margin: 0 auto 0 ;
+	position:relative;
+	
+}
+/*header{
+	float:left;
+	width:930px;
+	height:302px;
+	background-color:#111111;
+	background-image:url('soyheader302.png');
+	background-repeat: no-repeat;
+	background-position:110% -10%;
+	padding:0 0 0 30;
+	/* background: #ffccff  url('a.jpg') no-repeat  50% 50%
+	} 
+*/
+
+nav{
+	padding:20 10 10 20;
+	letter-spacing: 2px;
+    line-height: 36px;
+	float:left;
+	width:100%;
+	height:40px;
+	font-size: 23px;
+	font-weight: bold;
+	background-color:#ccffcc;
+}
+article{
+	float:left;
+	width:610px;
+	background-color:#ffffcc;
+	padding:0 10 0 10;
+}
+article section{
+	float:left;
+	width:590px;
+	margin:0 0 10 0;
+	padding: 0 10 0 10;
+	background-color:#ffcc66;
+}
+
+aside{
+	float:left;
+	width:310px;
+	padding:0 10 0 10;
+	background-color:#ff99cc;
+}
+
+#footer{
+	clear:both;
+	width:920px;
+	padding: 10 20 10 20;
+	height: 150px;
+	background-color: #d3d3d3;
+}
+
+
